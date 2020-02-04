@@ -3,7 +3,7 @@ import Proptypes from 'prop-types';
 
 const About = ({ aboutMe }) => (
   <>
-    <p>{aboutMe}</p>
+    <p>About: {aboutMe}</p>
   </>
 );
 

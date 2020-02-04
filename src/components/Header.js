@@ -5,9 +5,9 @@ const Header = ({ name, jobTitle, email, github, linkedin }) => (
   <>
     <h1>{name}</h1>
     <h2>{jobTitle}</h2>
-    <p>{email}</p>
-    <p>{github}</p>
-    <p>{linkedin}</p>
+    <p>Email: {email}</p>
+    <p>Github: {github}</p>
+    <p>Linkedin: {linkedin}</p>
   </>
 );
 

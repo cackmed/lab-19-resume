@@ -3,12 +3,12 @@ import Proptypes from 'prop-types';
 
 const Tech = ({ languages, frontEnd, backEnd, databases, tools, other }) => (
   <>
-    <p>{languages}</p>
-    <p>{frontEnd}</p>
-    <p>{backEnd}</p>
-    <p>{databases}</p>
-    <p>{tools}</p>
-    <p>{other}</p>
+    <p>Languages:{languages}</p>
+    <p>Front-End:{frontEnd}</p>
+    <p>Back-End:{backEnd}</p>
+    <p>Databases{databases}</p>
+    <p>Tools:{tools}</p>
+    <p>other:{other}</p>
   </>
 );
 
